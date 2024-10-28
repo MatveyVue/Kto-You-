@@ -15,7 +15,7 @@
 <h1 style="font-family: Roboto; color: rgb(136, 136, 136); font-size: 6vw;">Find out how funny you<br>are</h1>
 </center>   
 
-<div style="background-color: rgb(255, 254, 254); border: 0.5mm solid rgb(197, 197, 197); margin-top: 65vw; width: 102vw; height: 25vw; margin-left: -10px; position: relative;">
+<div class="fot">
 <a href="menu.html">
   <button style="width: 95vw; margin-top: 3vw; height: 12vw; border-radius: 10px; border: none; position: relative; margin-left: 10px;"><h2 style="font-family: Roboto; color: white;"><b>Next</b></h2></button>
 </a> 
@@ -37,5 +37,26 @@ body {
 button {
     background: var(--tg-theme-button-color);
     color: var(--tg-theme-button-text-color);
+}
+  .fot {
+  background-color: rgb(255, 254, 254); 
+  border: 0.5mm solid rgb(197, 197, 197); 
+  margin-top: 70vw; 
+  width: 102vw; 
+  height: 25vw; 
+  margin-left: -10px; 
+  position: relative;
+}
+
+@media screen and (min-height: 700px) and (max-height: 790px) {
+  .fot {
+    margin-top: 40vw;
+  }
+}
+
+@media screen and (min-height: 600px) and (max-height: 690px) {
+  .fot {
+    margin-top: 25vw;
+  }
 }
 </style>
